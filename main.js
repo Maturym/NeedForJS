@@ -45,7 +45,7 @@ function startGame(){
       enemy.y = - 100 * setting.traffic * (i + 1);
       enemy.style.left = Math.floor((Math.random() * 250)) + 'px';
       enemy.style.top = enemy.y + 'px';
-//       enemy.style.background = 'transparent url(../image/enemy.png) center / cover no-repeat';
+      // enemy.style.background = 'transparent url(../image/enemy.png) center / cover no-repeat';
       gameArea.appendChild(enemy);
     }
     setting.score = 0;
